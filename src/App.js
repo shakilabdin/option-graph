@@ -19,6 +19,7 @@ function profitCalculator(x) {
   }
 }
 
+// graph component
 class App extends Component {
   constructor(props) {
     super(props);
