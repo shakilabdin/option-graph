@@ -18,6 +18,7 @@ function profitCalculator(x) {
     return gain
   }
 }
+
 class App extends Component {
   constructor(props) {
     super(props);
