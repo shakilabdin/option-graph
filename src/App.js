@@ -25,10 +25,19 @@ class App extends Component {
     super(props);
 
     this.state = {
+      // start of chart options
       options: {
         chart: {
           id: "gains-chart",
           type: 'line'
+        },
+        title: {
+          text: 'Expiration Profit/Loss',
+          align: 'center',
+          style: {
+            fontSize: "16px",
+            color: '#666'
+          }
         },
         annotations: { 
           // y-axis annotations 
@@ -114,7 +123,7 @@ class App extends Component {
             text: 'Profit / Loss'
           }
         }
-      },
+      }, // end of options
       // y-axis data
       series: [
         {
